@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang ="en-US">
+<head>
+
+<title>Pants</title>
+	<style>
+		html {
+			-webkit-box-sizing:border-box;
+			-mox-box-sizing:border-box;
+			box-sizing:border-box;
+		}
+		*,*:before, *:after {
+			-webkit-box-sizing:inherit;
+			-moz-box-sizing:inherit;
+			box-sizing:inherit;
+		}
+		
+		#container {
+			display:grid;
+			grid-template-columns: repeat(12, 1fr);
+			grid-gap:.5em;
+			grid-auto-rows: minmax(100px, auto);
+			max-width:1200px;
+			position:relative;
+			margin:0 auto;
+			
+		}
+		img {
+			max-width:100%;
+			height:auto;
+		}
+		figcaption {
+			font-family: "Andale Mono";
+		}
+	
+		header {
+			grid-column:1/13;
+		}
+		nav {
+			grid-column:1/13;
+			font-size:22px;
+			font-family: "Andale Mono";
+			display:flex;
+			justify-content: space-around;
+			align-items:center;
+			height: 60px;
+			border-style: solid;
+			border-width: medium;
+			border-color: lightpink;
+			
+		}
+		.title {
+			grid-column: 1/13;
+			text-align: center;
+			font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+			font-size: 16px;
+		}
+		.section {
+			grid-column: 1/5;
+			text-align: center;
+			font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+			font-size: 16px;
+		}
+		.main {
+			grid-column: 5/9;
+			text-align: center;
+			font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+			font-size: 16px;
+		}
+		.side {
+			grid-column: 9/13;
+			text-align: center;
+			font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+			font-size: 16px;
+		}
+		footer {
+			grid-column:1/13;
+			background-color: aliceblue;
+			font-family: "Andale Mono";
+			padding-top: 2em;
+		}
+
+@media only screen and (min-width:620px) {
+		header {
+			grid-column:1/13;
+		}
+		nav {
+			grid-column:1/13;
+			font-size:22px;
+			font-family: "Andale Mono";
+			display:flex;
+			justify-content: space-around;
+			align-items:center;
+			height: 60px;
+			border-style: solid;
+			border-width: medium;
+			border-color: lightpink;
+		}
+		.title {
+			grid-column: 1/13;
+			text-align: center;
+			font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+			font-size: 16px;
+		}
+		.section {
+			grid-column: 1/5;
+			text-align: center;
+			font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+			font-size: 16px;
+		}
+		.main {
+			grid-column: 5/9;
+			text-align: center;
+			font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+			font-size: 16px;
+		}
+		.side {
+			grid-column: 9/13;
+			text-align: center;
+			font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+			font-size: 16px;
+		}
+		footer {
+			grid-column: 1/13;
+			background-color: aliceblue;
+			font-family: "Andale Mono";
+			padding-top: 2em;
+	}
+		}
+@media only screen and (min-width:900px) {
+		header {
+			grid-column:1/13;
+		}
+		nav {
+			grid-column:1/13;
+			font-size:22px;
+			font-family: "Andale Mono";
+			display:flex;
+			justify-content: space-around;
+			align-items:center;
+			height: 60px;
+			border-style: solid;
+			border-width: medium;
+			border-color: lightpink;
+		}
+		.title {
+			grid-column: 1/13;
+			text-align: center;
+			font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+			font-size: 16px;
+		}
+		.section {
+			grid-column: 1/5;
+			text-align: center;
+			font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+			font-size: 16px;
+		}
+		.main {
+			grid-column: 5/9;
+			text-align: center;
+			font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+			font-size: 16px;
+		}
+		.side {
+			grid-column: 9/13;
+			text-align: center;
+			font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+			font-size: 16px;
+		}
+		footer {
+			grid-column: 1/13;
+			background-color: aliceblue;
+			font-family: "Andale Mono";
+			padding-top: 2em;
+		}
+		
+		
+		
+	</style>
+</head>
+
+<body>
+	<div id="container"> 
+	<header>
+		<img src= "images/logo2.jpg">
+</header>
+	<nav>
+		<a href= "index.html"><div>Home</div></a>
+		<a href="tops.html"><div>Tops</div></a>
+		<a href="pants.html"><div>Pants</div></a>
+		<a href="dresses.html"><div>Dresses</div></a>
+		<a href= "shoes.html"><div>Accesories</div></a>
+		<a href="policy.html"><div>Policy</div></a>
+	  </nav>
+	<div class= "title" >
+		<img src="images/AugustBellsBanner.1533775983.jpg" height="150px" width="1200px">
+	  </div>
+	<div class="section">
+				<img src="images/mdf7-01_fr16_02_2_1.1537407385.jpg" height="250px" width="300px" vspace="10px">
+				<figcaption>Light Southern Bell $155</figcaption>
+		<img src="images/mdf7-01_th04_02_1_1_1.1537407184.jpg" height="250px" width="300px" vspace="10px">
+				<figcaption>Dark Southern Bell $155</figcaption>
+		<img src="images/mdf7-14_bw09_2.1533777712.jpg" height="250px" width="300px" vspace="10px">
+				<figcaption>Extreme Flow Pant $140</figcaption>
+	  </div>
+		<div class="main">
+			<img src="images/mdr8-211_sb57_01.1542072825.jpg" height="250px" width="300px" vspace="10px">
+				<figcaption>Striped Bell $185</figcaption>
+		<img src="images/mdf8-017_ec18_04_1.1538004608.jpg" height="250px" width="300px" vspace="10px">
+				<figcaption>Patch Work Pant $170</figcaption>
+			<img src="images/mds9-114_pw60_07.1551752285.jpg" height="250px" width="300px" vspace="10px">
+				<figcaption>White Southern Bell $155</figcaption>
+		</div>
+		<div class="side">
+			<img src="images/mds9-159_ns52_01.1554171165.jpg" height="250px" width="300px" vspace="10px">
+				<figcaption>Nautical Pant $150</figcaption>
+		<img src="images/mf8-1428_ch18_1.1536033063.jpg" height="250px" width="300px" vspace="10px">
+				<figcaption>Corded Pant $160</figcaption>
+			<img src="images/mds9-112_is19_01_1.1554170687.jpg" height="250px" width="300px" vspace="10px">
+				<figcaption>Overall Bell $210</figcaption>
+		</div>
+		<footer>
+		<div align="left">
+			<address> 1231 South Main Street, Harrisonburg VA 22801</address>
+			<p> Store Number: 540-432-7701</p>
+			<p>Hours: Monday - Friday 8:00am - 5:00pm</p>
+			</div>
+			<div align="right">
+				Contact Us:
+		<a href="mailto:steve@katherinegraceinman.com">Steve@katherinegraceinman.com</a>
+			</div>
+		</footer>
+		
+		
+</div>
+</body>
+</html>

@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang ="en-US">
+<head>
+
+<title>Tops</title>
+	<style>
+		html {
+			-webkit-box-sizing:border-box;
+			-mox-box-sizing:border-box;
+			box-sizing:border-box;
+		}
+		*,*:before, *:after {
+			-webkit-box-sizing:inherit;
+			-moz-box-sizing:inherit;
+			box-sizing:inherit;
+		}
+		
+		#container {
+			display:grid;
+			grid-template-columns: repeat(12, 1fr);
+			grid-gap:.5em;
+			grid-auto-rows: minmax(100px, auto);
+			max-width:1200px;
+			position:relative;
+			margin:0 auto;
+			
+		}
+		img {
+			max-width:100%;
+			height:auto;
+		}
+		figcaption {
+			font-family: "Andale Mono";
+		}
+	
+		header {
+			grid-column:1/13;
+		}
+		nav {
+			grid-column:1/13;
+			font-size:22px;
+			font-family: "Andale Mono";
+			display:flex;
+			justify-content: space-around;
+			align-items:center;
+			height: 60px;
+			border-style: solid;
+			border-width: medium;
+			border-color: lightpink;
+			
+		}
+		.title {
+			grid-column: 1/13;
+			text-align: center;
+			font: "Andale Mono";
+			font-size: 16px;
+		}
+		.section {
+			grid-column: 1/5;
+			text-align: center;
+			font: "Andale Mono";
+			font-size: 16px;
+		}
+		.main {
+			grid-column: 5/9;
+			text-align: center;
+			font: "Andale Mono";
+			font-size: 16px;
+		}
+		.side {
+			grid-column: 9/13;
+			text-align: center;
+			font: "Andale Mono";
+			font-size: 16px;
+		}
+		footer {
+			grid-column:1/13;
+			background-color: aliceblue;
+			font-family: "Andale Mono";
+			padding-top: 2em;
+		}
+
+@media only screen and (min-width:620px) {
+		header {
+			grid-column:1/13;
+		}
+		nav {
+			grid-column:1/13;
+			font-size:22px;
+			font-family: "Andale Mono";
+			display:flex;
+			justify-content: space-around;
+			align-items:center;
+			height: 60px;
+			border-style: solid;
+			border-width: medium;
+			border-color: lightpink;
+		}
+		.title {
+			grid-column: 1/13;
+			text-align: center;
+			font:"Andale Mono";
+			font-size: 16px;
+		}
+		.section {
+			grid-column: 1/5;
+			text-align: center;
+			font:"Andale Mono";
+			font-size: 16px;
+		}
+		.main {
+			grid-column: 5/9;
+			text-align: center;
+			font: "Andale Mono";
+			font-size: 16px;
+		}
+		.side {
+			grid-column: 9/13;
+			text-align: center;
+			font: "Andale Mono";
+			font-size: 16px;
+		}
+		footer {
+			grid-column: 1/13;
+			background-color: aliceblue;
+			font-family: "Andale Mono";
+			padding-top: 2em;
+	}
+		}
+@media only screen and (min-width:900px) {
+		header {
+			grid-column:1/13;
+		}
+		nav {
+			grid-column:1/13;
+			font-size:22px;
+			font-family: "Andale Mono";
+			display:flex;
+			justify-content: space-around;
+			align-items:center;
+			height: 60px;
+			border-style: solid;
+			border-width: medium;
+			border-color: lightpink;
+		}
+		.title {
+			grid-column: 1/13;
+			text-align: center;
+			font: "Andale Mono";
+			font-size: 16px;
+		}
+		.section {
+			grid-column: 1/5;
+			text-align: center;
+			font: "Andale Mono";
+			font-size: 16px;
+		}
+		.main {
+			grid-column: 5/9;
+			text-align: center;
+			font: "Andale Mono";
+			font-size: 16px;
+		}
+		.side {
+			grid-column: 9/13;
+			text-align: center;
+			font: "Andale Mono";
+			font-size: 16px;
+		}
+		footer {
+			grid-column: 1/13;
+			background-color: aliceblue;
+			font-family: "Andale Mono";
+			padding-top: 2em;
+		}
+		
+		
+		
+	</style>
+</head>
+
+<body>
+	<div id="container"> 
+	<header>
+		<img src= "images/logo2.jpg">
+</header>
+	<nav>
+		<a href= "index.html"><div>Home</div></a>
+		<a href="tops.html"><div>Tops</div></a>
+		<a href="pants.html"><div>Pants</div></a>
+		<a href="dresses.html"><div>Dresses</div></a>
+		<a href= "shoes.html"><div>Accesories</div></a>
+		<a href="policy.html"><div>Policy</div></a>
+	  </nav>
+	<div class= "title" >
+		<img src="images/Spring1_Banners_Tops.1552594162.jpg" height="150px" width="1200px">
+	  </div>
+	<div class="section">
+				<img src="images/ms9-1804_sd57_01.1554170353.jpg" height="250px" width="300px" vspace="10px">
+				<figcaption>Alice Tunic $85</figcaption>
+		<img src="images/ms9-1851__og29_02.1554170866.jpg" height="250px" width="300px" vspace="10px">
+				<figcaption>Courtney Crop $70</figcaption>
+		<img src="images/mdm8-006_cc30_02.1533779414.jpg" height="250px" width="300px" vspace="10px">
+				<figcaption>Delilah Denim Crop $90</figcaption>
+	  </div>
+		<div class="main">
+			<img src="images/mf8-830_lb57_2.1538612025.jpg" height="250px" width="300px" vspace="10px">
+				<figcaption>Marissa Tie Front $80</figcaption>
+		<img src="images/mf8-1286_dd35_5.1533781205.jpg" height="250px" width="300px" vspace="10px">
+				<figcaption>With Grace Shirt $120</figcaption>
+			<img src="images/mm9-64_ss92_03.1552959833.jpg" height="250px" width="300px" vspace="10px">
+				<figcaption>Tatler Tunic $75</figcaption>
+		</div>
+		<div class="side">
+			<img src="images/ms9-934_vg86_01.1549333497.jpg" height="250px" width="300px" vspace="10px">
+				<figcaption>Venice Tee $45</figcaption>
+		<img src="images/ms9-1756_wh97_02_1.1549333665.jpg" height="250px" width="300px" vspace="10px">
+				<figcaption>Babygirl Babydoll $70</figcaption>
+			<img src="images/ms9-1764_rp05_03.1554172225.jpg" height="250px" width="300px" vspace="10px">
+				<figcaption>Red Robin Crop $65</figcaption>
+		</div>
+		<footer>
+		<div align="left">
+			<address> 1231 South Main Street, Harrisonburg VA 22801</address>
+			<p> Store Number: 540-432-7701</p>
+			<p>Hours: Monday - Friday 8:00am - 5:00pm</p>
+			</div>
+			<div align="right">
+				Contact Us:
+		<a href="mailto:steve@katherinegraceinman.com">Steve@katherinegraceinman.com</a>
+			</div>
+		</footer>
+		
+		
+</div>
+</body>
+</html>

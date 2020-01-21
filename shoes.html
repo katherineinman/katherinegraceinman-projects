@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang ="en-US">
+<head>
+
+<title>Pants</title>
+	<style>
+		html {
+			-webkit-box-sizing:border-box;
+			-mox-box-sizing:border-box;
+			box-sizing:border-box;
+		}
+		*,*:before, *:after {
+			-webkit-box-sizing:inherit;
+			-moz-box-sizing:inherit;
+			box-sizing:inherit;
+		}
+		
+		#container {
+			display:grid;
+			grid-template-columns: repeat(12, 1fr);
+			grid-gap:.5em;
+			grid-auto-rows: minmax(100px, auto);
+			max-width:1200px;
+			position:relative;
+			margin:0 auto;
+			
+		}
+		img {
+			max-width:100%;
+			height:auto;
+		}
+		figcaption {
+			font-family: "Andale Mono";
+		}
+	
+		header {
+			grid-column:1/13;
+		}
+		nav {
+			grid-column:1/13;
+			font-size:22px;
+			font-family: "Andale Mono";
+			display:flex;
+			justify-content: space-around;
+			align-items:center;
+			height: 60px;
+			border-style: solid;
+			border-width: medium;
+			border-color: lightpink;
+			
+		}
+		.title {
+			grid-column: 1/13;
+			text-align: center;
+			font-family:"Andale Mono";
+			font-size: 16px;
+		}
+		.section {
+			grid-column: 1/5;
+			text-align: center;
+			font-family: "Andale Mono";
+			font-size: 16px;
+		}
+		.main {
+			grid-column: 5/9;
+			text-align: center;
+			font-family:"Andale Mono";
+			font-size: 16px;
+		}
+		.side {
+			grid-column: 9/13;
+			text-align: center;
+			font-family: "Andale Mono";
+			font-size: 16px;
+		}
+		footer {
+			grid-column:1/13;
+			background-color: aliceblue;
+			padding-top: 2em;
+			font-family: "Andale Mono";
+		}
+
+@media only screen and (min-width:620px) {
+		header {
+			grid-column:1/13;
+		}
+		nav {
+			grid-column:1/13;
+			font-size:22px;
+			font-family:"Andale Mono";
+			display:flex;
+			justify-content: space-around;
+			align-items:center;
+			height: 60px;
+			border-style: solid;
+			border-width: medium;
+			border-color: lightpink;
+		}
+		.title {
+			grid-column: 1/13;
+			text-align: center;
+			font-family: "Andale Mono";
+			font-size: 16px;
+		}
+		.section {
+			grid-column: 1/5;
+			text-align: center;
+			font-family:"Andale Mono";
+			font-size: 16px;
+		}
+		.main {
+			grid-column: 5/9;
+			text-align: center;
+			font-family:"Andale Mono";
+			font-size: 16px;
+		}
+		.side {
+			grid-column: 9/13;
+			text-align: center;
+			font-family:"Andale Mono";
+			font-size: 16px;
+		}
+		footer {
+			grid-column: 1/13;
+			background-color: aliceblue;
+			font-family: "Andale Mono";
+			padding-top: 2em;
+	}
+		}
+@media only screen and (min-width:900px) {
+		header {
+			grid-column:1/13;
+		}
+		nav {
+			grid-column:1/13;
+			font-size:22px;
+			font-family:"Andale Mono";
+			display:flex;
+			justify-content: space-around;
+			align-items:center;
+			height: 60px;
+			border-style: solid;
+			border-width: medium;
+			border-color: lightpink;
+		}
+		.title {
+			grid-column: 1/13;
+			text-align: center;
+			font-family: "Andale Mono";
+			font-size: 16px;
+		}
+		.section {
+			grid-column: 1/5;
+			text-align: center;
+			font-family: "Andale Mono";
+			font-size: 16px;
+		}
+		.main {
+			grid-column: 5/9;
+			text-align: center;
+			font-family: "Andale Mono";
+			font-size: 16px;
+		}
+		.side {
+			grid-column: 9/13;
+			text-align: center;
+			font-family: "Andale Mono";
+			font-size: 16px;
+		}
+		footer {
+			grid-column: 1/13;
+			background-color: aliceblue;
+			font-family: "Andale Mono";
+			padding-top: 2em;
+		}
+		
+		
+		
+	</style>
+</head>
+
+<body>
+	<div id="container"> 
+	<header>
+		<img src= "images/logo2.jpg">
+</header>
+	<nav>
+		<a href= "index.html"><div>Home</div></a>
+		<a href="tops.html"><div>Tops</div></a>
+		<a href="pants.html"><div>Pants</div></a>
+		<a href="dresses.html"><div>Dresses</div></a>
+		<a href= "shoes.html"><div>Accesories</div></a>
+		<a href="policy.html"><div>Policy</div></a>
+	  </nav>
+	<div class= "title" >
+		<img src="images/Spring3_Banners_Accessories_1.1554169581.jpg" height="150px" width="1200px">
+	  </div>
+	<div class="section">
+				<img src="images/elsieheadscarf_pink_orange_02.1554176771.jpg" height="250px" width="300px" vspace="10px">
+				<figcaption>Purse $40</figcaption>
+		<img src=" images/2730cotropew_cafenoir_01.1552959503.jpg" height="250px" width="300px" vspace="10px">
+				<figcaption>Kick Back Shoes $80</figcaption>
+		<img src="images/alexiafannypack_cognac_01.1552959897.jpg" height="250px" width="300px" vspace="10px">
+				<figcaption>Festival Fanny $30</figcaption>
+	  </div>
+		<div class="main">
+			<img src="images/catybootie_black_01.1552959159.jpg" height="250px" width="300px" vspace="10px">
+				<figcaption>Leather Boots $130</figcaption>
+		<img src="images/laupersuedecirclebelt_cognac_02.1552963937.jpg" height="250px" width="300px" vspace="10px">
+				<figcaption>Simple Belt $20</figcaption>
+			<img src="images/montycoinearrings_gold_03.1551753285.jpg" height="250px" width="300px" vspace="10px">
+				<figcaption>Coined Earrings $15</figcaption>
+		</div>
+		<div class="side">
+			<img src="images/onetimeheadscarf_orange_multi_01.1549333504.jpg" height="250px" width="300px" vspace="10px">
+				<figcaption>Stle Scarf $15</figcaption>
+		<img src="images/pascaleslidesandals_blush_03.1554174253.jpg" height="250px" width="300px" vspace="10px">
+				<figcaption>Strapped Up Sandal $80</figcaption>
+			<img src="images/stealakisssunglasses_pink_01_1.1554170740.jpg" height="250px" width="300px" vspace="10px">
+				<figcaption>Hater Blockers $40</figcaption>
+		</div>
+		<footer>
+		<div align="left">
+			<address> 1231 South Main Street, Harrisonburg VA 22801</address>
+			<p> Store Number: 540-432-7701</p>
+			<p>Hours: Monday - Friday 8:00am - 5:00pm</p>
+			</div>
+			<div align="right">
+				Contact Us:
+		<a href="mailto:steve@katherinegraceinman.com">Steve@katherinegraceinman.com</a>
+			</div>
+		</footer>
+		
+		
+</div>
+</body>
+</html>
